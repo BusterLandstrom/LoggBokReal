@@ -62,7 +62,7 @@ public class logg {
         Runtime runtime = Runtime.getRuntime();
         try{
             Process process = runtime.exec("shutdown -s -t " + Integer.toString(seconds));
-            Thread.sleep(900);
+            Thread.sleep(900);  
             javax.swing.JOptionPane.showMessageDialog(null,"GOOOD BYE!\n" + " I sucked your mom");
 
         }catch(Exception e){
