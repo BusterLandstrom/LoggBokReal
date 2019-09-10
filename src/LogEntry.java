@@ -30,10 +30,10 @@ public class LogEntry {
 
     @Override
     public String toString() {
-        return "LogEntry{" +
-                "createdAt=" + createdAt +
-                ", updatedAt=" + updatedAt +
-                ", message='" + message + '\'' +
+        return "Log Entry{" +
+                "Entry=" + message +
+                ", Created=" + createdAt +
+                ", Updated='" + updatedAt + '\'' +
                 '}';
     }
 
